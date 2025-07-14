@@ -9,7 +9,7 @@ def proxy():
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         r = requests.get(url, headers=headers)
-        return Response(r.content, status=r.status_code, content_type=r.headers.get('Content-Type', 'application/xml'))
+        return Response(r.content.decode('utf-8', errors='replace'), status=r.status_code, content_type='application/xml; charset=utf-8')
     except Exception as e:
         return Response(f'Error fetching feed: {e}', status=500)
 
