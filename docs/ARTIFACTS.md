@@ -5,7 +5,8 @@ This document contains links to visual artifacts created for the Ghost CMS RSS I
 ## Visual Artifacts (Claude.ai)
 
 ### 1. Architecture Overview
-**Link**: [Add your artifact link here]
+**Link**: [Architecture Overview](https://claude.ai/public/artifacts/27abbc8f-e8bd-4e22-af1b-87306289b491)
+
 **Description**: Complete system architecture with component diagrams, implementation phases, and technical overview.
 **Contents**:
 - Project summary and current state
@@ -23,7 +24,8 @@ This document contains links to visual artifacts created for the Ghost CMS RSS I
 - Success metrics and monitoring
 
 ### 3. Database Schema Design  
-**Link**: [Add your artifact link here]
+**Link**: [Database Schema Design](https://claude.ai/public/artifacts/29ac0fae-acbe-4bc0-8d36-0d6969bc1b4e)
+
 **Description**: Complete database design with schemas, relationships, and performance considerations.
 **Contents**:
 - Core table definitions
